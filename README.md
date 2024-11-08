@@ -9,17 +9,23 @@ Table of Contents
 
 
 Installation
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.*.
+The could should run with Python Version 3. The following libraries were used: pandas, numby, seaborn, sklearn and the Matplotlib. 
+
 Project Motivation
-For this project, I was interestested in using Stack Overflow data from 2017 to better understand:
-	1. How other developers suggested breaking into the field (what education to pursue)?
-	2. What factors about an individual contributed to salary?
-	3. How bias played a role in the suggestions of developers for how to break into the field?
-	4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-	5. How were bootcamps assisting with increasing diversity in tech careers?
-The full set of files related to this course are owned by Udacity, so they are not publicly available here. However, you can see pieces of the analysis here. This README also serves as a template for students to follow in creating their own project README files.
+Based on the Seattle AirBnB open data available via kaggle.com I analysed following questions:
+	1) In which neighbourhoods are the most listings?
+	2) How high the average availability in the different neighbourhoods?
+	3) How are the different variables correlated with the price variable? 
+	
+
 File Descriptions
-There are 3 notebooks available here to showcase work related to the above questions. Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title. Markdown cells were used to assist in walking through the thought process for individual steps.
-There is an additional .py file that runs the necessary code to obtain the final model used to predict salary.
+Markdown cells were used to assist in walking through the thought process for individual steps.
+
 Results
-![image](https://github.com/user-attachments/assets/dde3ff93-973b-4382-9c2c-16ee7b33ce29)
+The neighbourhoods with the most listings are Capitol Hil, Downtown and Central Area. However, more than 20% of listings were categorized to other neighbourhoods.
+
+Looking at the average availability per neighbourhood, we can see that there the average is above 200 days in each neighborhood. The lowest availability is in Cascade, while the highest is in Interbay. 
+
+When it comes to the correlation between the variable price and other selected variables, a high correlation can be seen when it comes to the number of bathrooms, number of beds/bedrooms, cancellation policy and room type. However, if we try to explain the price variable via a linear regression based on this variables the R square is at 0.45, telling us that we can only explain 50% of the variance with this model, which is not a good fit. 
+
+
