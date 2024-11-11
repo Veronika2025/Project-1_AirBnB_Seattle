@@ -32,6 +32,8 @@ Looking at the average availability per neighbourhood, we can see that there the
 
 When it comes to the correlation between the variable price and other selected variables, a high correlation can be seen when it comes to the number of bathrooms, number of beds/bedrooms, cancellation policy and room type. However, if we try to explain the price variable via a linear regression based on this variables the R square is at 0.45, telling us that we can only explain 50% of the variance with this model, which is not a good fit. 
 
+The corresponding blog post can be found here: https://medium.com/@veronika.hartl/what-the-seattle-airbnb-open-data-tells-you-about-availability-and-factors-influencing-the-prices-78626fddc3dd
+
 5. Licensing, Authors, and Acknowledgements
 
 The data used is open data, accessable via kaggle.com and not subject to copyrights.
